@@ -6,38 +6,50 @@ body{
 
 }
 .done{
-  text-decoration: line-through;
+  color: red;
 }
 #profile1{
-  background-image: url('2.png');
-  background-repeat: no-repeat;
-  background-size: 100% 750px;
-}
-#profile2{
-  background-image: url('4.png');
-  background-repeat: no-repeat;
-  background-size: 100% 750px;
-}
-#profile3{
   background-image: url('1.png');
   background-repeat: no-repeat;
   background-size: 100% 750px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 2rem;
 }
-#profile4{
+#profile2{
+  background-image: url('2.png');
+  background-repeat: no-repeat;
+  background-size: 100% 750px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 2rem;
+}
+#profile3{
   background-image: url('3.png');
   background-repeat: no-repeat;
   background-size: 100% 750px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 2rem;
+}
+#profile4{
+  background-image: url('4.png');
+  background-repeat: no-repeat;
+  background-size: 100% 750px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 2rem;
 }
 #one{
-
-  height: 235px;
-  width: 280px;
-  margin-top: -37%;
-  margin-left: -24%;
-  background-color: rgb(181,164,156);
-
-  border: 2px solid white;
+  height: 160px;
+  width: 46%;
+  /* margin-top: 0%;
+  margin-left: 0%; */
+  /* background-color: rgb(181,164,156); */
   border-radius: 30px;
+  position: absolute;
+  top: 0px;
+  left: 100px;
+  border: 2px solid white;
+  background-color: rgba(255, 255, 255, .5);
+  border-radius: 30px;
+  overflow-y: scroll;
 }
 #two{
 
@@ -50,23 +62,7 @@ body{
   top: 0px;
   left: 0px;
 } */
-#cashier{
-  width: 27%;
-  position: absolute;
-  top: 230px;
-  right: 80px;
-  text-align: center;
-}
-#cashierInput{
-  position: absolute;
-  top: 30px;
-  left: 30px;
-  background-color: rgb(181,164,156);
-  height: 160px;
-  /* background-color: rgba(255, 255, 255, .5); */
-  border: 2px solid white;
-  border-radius: 30px;
-}
+
 img{
   height: 200px;
 }
@@ -75,15 +71,95 @@ img{
 }
 #loginBox{
   position: absolute;
-  top: 60px;
-  right: 550px;
-  width: 20%;
-  height: 357px;
+      bottom: 18px;
+      right: 270px;
+      width: 20%;
+      height: 393px;
+      border: 2px solid white;
+      background-color: rgba(255, 255, 255, .5);
+      border-radius: 30px;
 }
 #signBox{
   position: absolute;
-  top: 70px;
-  right: 552px;
-  width: 20%;
-  height: 357px;
+      bottom: 18px;
+      right: 270px;
+      width: 20%;
+      height: 393px;
+      border: 2px solid white;
+      background-color: rgba(255, 255, 255, .5);
+      border-radius: 30px;
+}
+
+/* Profile */
+#first{
+  height: 185px;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  right: 165px;
+  border: 2px solid white;
+  background-color: rgba(255, 255, 255, .5);
+  border-radius: 30px;
+  overflow-y: scroll;
+  padding: 7%;
+}
+#second{
+  height: 300px;
+  width: 100%;
+  position: absolute;
+  top: 190px;
+  right: 590px;
+  border: 2px solid white;
+  background-color: rgba(255, 255, 255, .5);
+  border-radius: 30px;
+  overflow-y: scroll;
+}
+#third{
+  height: 300px;
+  width: 100%;
+  position: absolute;
+  top: 220px;
+  right: 165px;
+  border: 2px solid white;
+  background-color: rgba(255, 255, 255, .5);
+  border-radius: 30px;
+  overflow-y: scroll;
+}
+
+/* index */
+#inputs{
+  margin: 2%;
+  display: block;
+}
+#cashier{
+  width: auto;
+  height: auto;
+  position: absolute;
+  bottom: 70px;
+  right: 260px;
+
+  border: 2px solid white;
+  background-color: rgba(255, 255, 255, .5);
+  border-radius: 30px;
+  padding: 2%;
+}
+#cashierInput{
+  position: absolute;
+  bottom: 35px;
+  left: 190px;
+  /* background-color: rgb(181,164,156); */
+  height: 160px;
+  background-color: rgba(255, 255, 255, .5);
+  border: 2px solid white;
+  border-radius: 30px;
+
+}
+.message{
+  border: 1px solid purple;
+  padding: 5%;
+  margin: 2%;
+  border-radius: 30px;
+}
+strong{
+  color: black;
 }

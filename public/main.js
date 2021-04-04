@@ -12,15 +12,12 @@ for(element of completed){
 function crossOut(){
   console.log('hi')
 
-  const name = this.parentNode.parentNode.querySelector('.dog').innerText
-  const order = this.parentNode.parentNode.querySelector('.cat').innerText
+  const name = this.parentNode.parentNode.querySelector('.nme').innerText
+  const order = this.parentNode.parentNode.querySelector('.ord').innerText
   // const barista = this.parentNode.parentNode.querySelector('.pig').innerText
   const isCompleted = this.parentNode.parentNode.querySelector('.hide').innerText
   const objectId = this.parentElement.id
-  // console.log(name)
-  // console.log(order)
-  // console.log(isCompleted)
-  // console.log(objectId)
+
 
   console.log('fluff')
   fetch('messages', {
@@ -29,11 +26,6 @@ function crossOut(){
     body: JSON.stringify({
       'name': name,
       'order': order,
-      // 'barista': barista,
-      // 'size': size,
-      // 'regular': regular,
-      // 'mocha': mocha,
-      // 'caramel': caramel,
       'isCompleted': isCompleted,
       '_id': objectId
 
