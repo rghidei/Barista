@@ -1,0 +1,89 @@
+body{
+  padding-top:80px;
+  word-wrap:break-word;
+
+
+
+}
+.done{
+  text-decoration: line-through;
+}
+#profile1{
+  background-image: url('2.png');
+  background-repeat: no-repeat;
+  background-size: 100% 750px;
+}
+#profile2{
+  background-image: url('4.png');
+  background-repeat: no-repeat;
+  background-size: 100% 750px;
+}
+#profile3{
+  background-image: url('1.png');
+  background-repeat: no-repeat;
+  background-size: 100% 750px;
+}
+#profile4{
+  background-image: url('3.png');
+  background-repeat: no-repeat;
+  background-size: 100% 750px;
+}
+#one{
+
+  height: 235px;
+  width: 280px;
+  margin-top: -37%;
+  margin-left: -24%;
+  background-color: rgb(181,164,156);
+
+  border: 2px solid white;
+  border-radius: 30px;
+}
+#two{
+
+  height: auto;
+  width: 33%;
+  margin-left: 17%;
+}
+/* .one{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+} */
+#cashier{
+  width: 27%;
+  position: absolute;
+  top: 230px;
+  right: 80px;
+  text-align: center;
+}
+#cashierInput{
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  background-color: rgb(181,164,156);
+  height: 160px;
+  /* background-color: rgba(255, 255, 255, .5); */
+  border: 2px solid white;
+  border-radius: 30px;
+}
+img{
+  height: 200px;
+}
+.hide{
+  display: hide;
+}
+#loginBox{
+  position: absolute;
+  top: 60px;
+  right: 550px;
+  width: 20%;
+  height: 357px;
+}
+#signBox{
+  position: absolute;
+  top: 70px;
+  right: 552px;
+  width: 20%;
+  height: 357px;
+}

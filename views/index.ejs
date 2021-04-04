@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+    <title>Kitty Cafe</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="profile1">
+<div class="container">
+
+    <div id="cashierInput" class="jumbotron text-center">
+        <!-- <h1>WILLOW'S SMOOTHIE</h1>
+        <img src="img/flower3.png" alt=""> -->
+
+        <p> Kitchen Login or Signup:</p>
+
+        <a href="/login" class="btn btn-default"><span class="fa fa-user"></span>Login</a>
+        <a href="/signup" class="btn btn-default"><span class="fa fa-user"></span>Signup</a>
+
+    </div>
+
+
+</div>
+
+<section id="cashier" class="CashierContainer">
+   <!-- <div class="CashierTitle">
+     <h2>Cashier: Input Order Below</h2>
+   </div> -->
+
+   <form class="CashierTitle" action="/messages" method="POST">
+     <input type="text" value="" placeholder="customer name" name="name">
+     <input type="text" placeholder="diary" name="order" >
+     <!-- <br>
+     <label name="banana" for="espresso">Regular</label>
+     <input type="radio" value="regular" placeholder="regular" name="regular">
+     <label for="caramel">Mocha</label>
+     <input type="radio" value="mocha" placeholder="mocha" name="mocha">
+     <label for="sugar">Caramel</label>
+     <input type="radio" value="caramel" placeholder="caramel" name="caramel">
+
+     <br>
+     <select class="Size" name="size">
+       <option  value="Small">Small</option>
+       <option value="Large">Large</option>
+     </select> -->
+     <button type="submit">Submit</button>
+   </form>
+   </section>
+</body>
+</html>
