@@ -51,12 +51,7 @@ module.exports = function(app, passport, db, objectId, ObjectID) {
         $set: {
           isCompleted: true,
           barista: req.user.local.email
-          // name: req.body.name,
-          // order: req.body.order,
-          // regular: req.body.regular,
-          // mocha: req.body.mocha,
-          // caramel: req.body.caramel,
-          // size: req.body.size
+
         }
       }, {
         sort: {_id: -1},
