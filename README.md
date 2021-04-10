@@ -3,7 +3,7 @@
 
 -I created a website for a small cafe, where the cashier can plug in customers orders. The barista in the kitchen can login in and to check what the orders are and delete them once they complete the order.  
 
-[Checkout my portfolio to see live app](https://rodasghidei.netlify.app/)
+[Checkout my live app](https://kitty-barista-cafe.herokuapp.com/)
 
 ![Kitty Cafe](public/shot3.png)
 
