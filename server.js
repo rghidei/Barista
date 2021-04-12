@@ -10,6 +10,7 @@ const ObjectID = require('mongodb').ObjectID
 var mongoose = require('mongoose');
 var passport = require('passport');
 var flash    = require('connect-flash');
+require('dotenv').config()
 
 var morgan       = require('morgan');
 var cookieParser = require('cookie-parser');
@@ -17,13 +18,14 @@ var bodyParser   = require('body-parser');
 var session      = require('express-session');
 
 var objectId = new ObjectID();
-
-var configDB = require('./config/database.js');
+const DB_NAME = process.env.DB_NAME
+const DB_URL =process.env.DB_URL+`/${DB_NAME}`
+// var configDB = require('./config/database.js');
 
 var db
 
 // configuration ===============================================================
-mongoose.connect(configDB.url, (err, database) => {
+mongoose.connect(DB_URL, (err, database) => {
   if (err) return console.log(err)
   db = database
   require('./app/routes.js')(app, passport, db, objectId, ObjectID);
