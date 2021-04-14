@@ -3,9 +3,9 @@
 
 -I created a website for a small cafe, where the cashier can plug in customers orders. The barista in the kitchen can login in and to check what the orders are and delete them once they complete the order.  
 
-[Checkout my live app](https://kitty-barista-cafe.herokuapp.com/)
+[Checkout my live app](https://bloom-cafe.herokuapp.com/)
 
-![Kitty Cafe](public/shot3.png)
+![Kitty Cafe](public/bloomscreen.png)
 
 ## How It's Made:
 
